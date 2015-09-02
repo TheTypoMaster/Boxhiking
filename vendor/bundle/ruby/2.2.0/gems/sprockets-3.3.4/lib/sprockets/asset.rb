@@ -54,7 +54,7 @@ module Sprockets
 
     # Public: Internal URI to lookup asset by.
     #
-    # NOT a publically accessible URL.
+    # NOT a publicly accessible URL.
     #
     # Returns URI.
     attr_reader :uri
