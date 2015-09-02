@@ -1,0 +1,15 @@
+/usr/local/bin/ruby -r ./siteconf20150902-4851-yod2gi.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling wrapper.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling bcrypt_ext.c
+compiling crypt.c
+linking shared-object bcrypt_ext.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20150902-4851-pqz6ey
